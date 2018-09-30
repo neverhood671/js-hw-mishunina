@@ -25,7 +25,7 @@ console.log(`The result is ${res1}`);
 // 		The result is 10,20,30
 //
 // Fine, it's working! Next, we will try to make our map method similar to the real map method in JavaScript.
-// To allow using our map is a method of all Array instances we rewrite default map with our own map. 
+// To allow using our map as a method of all Array instances we rewrite default map with our own map. 
 
 Array.prototype.map = function(callback){
 	var newArr = [];
